@@ -5,7 +5,7 @@ export default function Hero() {
             <div className="py-12 2xl:px-20 px-6 xl:mx-auto xl:container">
                 <div className="flex flex-col items-center">
                     <h1 className="text-5xl font-bold text-gray-800 text-center">Contact us</h1>
-                    <p className="text-base leading-normal text-center text-gray-600 mt-5 text-center md:w-3/5">A good idiom for kids is "It's raining cats and dogs." Kids know what both cats and dogs are from an early age so they can understand it's not literally raining cats and dogs.</p>
+                    <p className="text-base leading-normal text-center text-gray-600 mt-5 text-center md:w-3/5">{`A good idiom for kids is "It's raining cats and dogs." Kids know what both cats and dogs are from an early age so they can understand it's not literally raining cats and dogs.`}</p>
 
                     <div className="container mx-auto grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 mt-10 gap-6">
                         <div className="bg-white border rounded-md border-gray-200 h-64 flex flex-col items-center">
